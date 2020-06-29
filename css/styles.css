@@ -1,3 +1,18 @@
+@media only screen and (max-width: 320px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      max-width: 100%;
+    }
+  }
+  body{
+    padding:50px 0px 0px 0px;
+    z-index:0;
+}
+
+.navbar-dark {
+     background-color: #512DA8;
+}
+
 .row-header{
     margin:0px auto;
     padding:0px;
@@ -21,7 +36,9 @@
     background: #9575CD ;
     color:floralwhite;
 }
-
+header{
+    display:flex;
+}
 address{
     font-size:80%;
     margin:0px;
